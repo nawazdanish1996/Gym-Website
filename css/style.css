@@ -1,0 +1,87 @@
+    /* ===== Home ===== */
+
+body{
+    background-color: #000;
+}
+
+#home{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/bg1.jpg);
+}
+
+#home h1{
+    text-shadow: red 1px 1px 10px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.list li{
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 150%;
+    transition: all 1s ease;
+}
+
+.list li:hover{
+    background-color: red;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    transition: all 1s ease;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    display: none;
+}
+
+.nav:hover .list{
+    display: block;
+}
+
+
+
+    /* ===== About ===== */
+#about{
+    height: 100%;
+}
+/* ===== Our Mission ===== */
+#ourMission{
+    height: 100%;
+}
+/* ===== ADDRESS, CONTACT & SOCIAL MEDIA LINKS ===== */
+#testimonials{
+    height: 100%;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+#testimonials .col-md-4 p{
+    text-align: justify;
+}
+#testimonials .col-md-4 i{
+    font-size: 200%;
+}
+/* ===== Contact ===== */
+#contact{
+    height: 60vh;
+    border: 1px solid white;
+}
+/* ===== Footer ===== */
