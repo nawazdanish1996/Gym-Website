@@ -10,8 +10,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://cdn.pixabay.com/photo/2015/07/02/10/21/training-828715_960_720.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(https://cdn.pixabay.com/photo/2015/07/02/10/21/training-828715_960_720.jpg);
 }
 
 #home h1{
